@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+.Tabs-container {
+    border: 1px solid #ddd;
+    margin-right: 1000px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.Tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.Tab {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex: 1;
+    text-align: center;
+}
+
+.Tab:hover {
+    background-color: #e8e8e8;
+}
+
+.Tab.active {
+    background-color: #333;
+    color: white;
+    border-color: #333;
+}
+
+.Text {
+    color: #666;
+    font-size: 14px;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.cadre {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px 100px;
+    padding: 30px 20px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
